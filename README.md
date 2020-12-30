@@ -21,7 +21,7 @@ PART II SETTING UP THE BACK-END
 
 2. Create the server.js File
   - within the specified folder ```touch server.js```
-  - initiate the node.js/express server in the server.js file\
+  - initiate the node.js/express server in the server.js file
 
 const express = require('express');\
 const app = express();\
@@ -34,7 +34,7 @@ app.use(bodyParser.json());\
 
 app.listen(PORT, function() {\
 console.log("Server is running on Port: " + PORT);\
-})\
+})
 
   - start the server with nodemon ```nodemon server```
 
